@@ -1,4 +1,8 @@
 # We use Travis CI only to run check-webkit-style
+os: linux
+arch:
+ - amd64
+ - ppc64le
 language: python
 python: "2.7"
 sudo: false
